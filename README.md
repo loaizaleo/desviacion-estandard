@@ -24,15 +24,12 @@ g++ funcion_lectura2.cpp -o desviacion
 ./desviacion
 ```
 
-> ⚠️ El programa busca un archivo llamado **`pulso.dat`**, pero el repositorio trae **`pulso2.dat`**. Si lo ejecuta sin más, se detiene con el error `Assertion 'read_file.is_open()' failed`. Antes de ejecutarlo, renombre el archivo:
->
-> ```bash
-> cp pulso2.dat pulso.dat
-> ```
->
-> o cambie el nombre dentro de `leer_datos()` en el código.
+El programa lee `pulso2.dat` (debe estar en la carpeta desde donde se ejecuta) y muestra:
 
-El programa muestra el promedio (`mean`) y la desviación estándar (`sigma`).
+```
+mean =42.425
+sigma= +-8.93971
+```
 
 ## Fórmulas
 

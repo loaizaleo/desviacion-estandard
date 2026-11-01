@@ -27,7 +27,7 @@ cout<<"sigma= +-"<<desvest<<endl;
 
 //Instrucciones para leer archivo .dat y asignar a un array
 void leer_datos(float y[]){
-std::ifstream read_file("pulso.dat");
+std::ifstream read_file("pulso2.dat");
 assert(read_file.is_open());
 for (int i=0; i<80; i++)
 {
